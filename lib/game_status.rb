@@ -55,6 +55,10 @@ def over?(board)
 end
 
 def winner(board)
-  token = board[won?(board)[0]]
-  return token
+  if won?(board) != false
+    token = board[won?(board)[0]]
+    return token
+  else
+    return nil
+  end
 end
