@@ -33,5 +33,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.none?{|pos| pos == " " || pos == ""}
+  board.none?{|index| index == " " || pos == ""}
 end
+
