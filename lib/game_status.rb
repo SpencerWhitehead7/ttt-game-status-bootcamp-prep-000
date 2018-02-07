@@ -47,7 +47,7 @@ def draw?(board)
 end
 
 def over?(board)
-  if won?(board) == 
+  if is.array(won?(board)) 
     return true
   elsif draw?(board) == true
     return true
