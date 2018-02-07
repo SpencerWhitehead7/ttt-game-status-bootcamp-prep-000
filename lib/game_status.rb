@@ -36,3 +36,12 @@ def full?(board)
   board.none?{|index| index == " " || pos == ""}
 end
 
+def draw?(board)
+  if won?(board) == false && full?(board) == true
+    return true
+  elsif
+  
+  else
+    return false
+  end
+end
