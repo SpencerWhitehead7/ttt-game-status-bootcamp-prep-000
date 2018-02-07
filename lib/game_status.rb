@@ -55,6 +55,6 @@ def over?(board)
 end
 
 def winner(board)
-  token = won?(board)[0]
+  token = board[won?(board)[0]]
   return token
 end
